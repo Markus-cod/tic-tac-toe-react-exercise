@@ -1,14 +1,14 @@
 # Tic-Tac-Toe React Exercise
 A classic Tic-Tac-Toe game built with React, featuring game history tracking and a time-travel feature to revisit any move.
+(Udemy React Exercise)
 
 # Features
 - Classic 3x3 Tic-Tac-Toe gameplay
 - Displays the next player (X or O)
 - Shows the winner when the game is over
 - Tracks the complete game history
-- "Time travel" feature to jump back to any previous move
 - Reset game functionality
-- Responsive design for all screen sizes
+- Player names customization
 
 # Technologies Used
 - React
@@ -37,20 +37,18 @@ npm install
 ```
 4. Start the development server:
 ```bash
-npm start
+npm run dev
 ```
 5. Open your browser and visit:
 ```text
-http://localhost:3000
+http://localhost:5173
 ```
 
 # How to Play
 1. The game starts with player X's turn
 2. Click on any empty square to place your mark (X or O)
 3. Players alternate turns until one player gets 3 in a row or all squares are filled
-4. When a player wins, the winning combination will be highlighted
-5. Use the move history list to jump back to any previous move
-6. Click "Reset Game" to start a new match
+4. Click "Rematch!" to start a new match
 
 # Game Rules
 - Players take turns marking a square with their symbol (X or O)
@@ -67,13 +65,9 @@ Contributions are welcome! If you'd like to improve this project, please follow 
 5. Open a Pull Request
 
 # Future Improvements
-- Add player names customization
 - Implement score tracking across multiple games
 - Add animations for better user experience
 - Create an AI opponent
-
-# License
-This project is open-source and available under the MIT License.
 
 # Contact
 For any questions or suggestions, please feel free to reach out to the repository owner.
